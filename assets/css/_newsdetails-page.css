@@ -1,0 +1,81 @@
+
+.banner-section{
+	background: url('../images/banner-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 220px;
+}
+
+.header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.banner-sct-inner h1{
+	margin: 0;
+	padding-bottom: 42px;
+	color: #fff;
+	font-size: 80px;
+	line-height: 78px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+.sub-menu{
+	padding-bottom: 50px;
+}
+.sub-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 158px;
+	position: relative;
+}
+.sub-menu ul:before{
+	content: "";
+	height: 6px;
+	width: 116px;
+	position: absolute;
+	background: #fff;
+	top: 70%;
+	left: 0;
+	margin-top: -3px;
+	transform: translateY(-70%);
+	-moz-transform: translateY(-70%);
+	-webkit-transform: translateY(-70%);
+}
+.sub-menu ul li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 12px;
+	position: relative;
+}
+.sub-menu ul li:before{
+	content: "\f178";
+	position: absolute;
+	color: #fff;
+	left: 0;
+	top: 25%;
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.sub-menu ul li:first-child:before{
+	content: none;
+}
+.sub-menu ul li:first-child{
+	padding-left: 0;
+}
+
+.sub-menu ul li a{
+	display: inline-block;
+	font-size: 22px;
+	color: #fff;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}

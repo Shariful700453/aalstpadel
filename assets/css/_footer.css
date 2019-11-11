@@ -1,0 +1,145 @@
+
+.ftr-top-section{
+	background: #272626;
+	padding-top: 100px;
+	padding-bottom: 95px;
+}
+.ftr-logo a{
+	display: inline-block;
+}
+.ftr-logo a img{
+	width: 100%;
+}
+
+.ftr-main-menu span,
+.ftr-menu span,
+.ftr-cnt-menu span{
+	display: inline-block;
+	padding-bottom: 52px;
+	font-size: 20px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.ftr-main-menu ul,
+.ftr-cnt-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ftr-main-menu ul li,
+.ftr-menu ul li{
+	padding-bottom: 35px;
+}
+.ftr-main-menu ul li a,
+.ftr-menu ul li a{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 600;
+}
+.ftr-cnt-menu ul li{
+	padding-bottom: 32px;
+}
+.ftr-cnt-menu ul li:nth-child(2){
+	padding-bottom: 15px;
+}
+.ftr-cnt-menu ul li:nth-child(4){
+	padding-bottom: 45px;
+}
+.ftr-cnt-menu ul li a{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 600;
+}
+
+.ftr-menu ul{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	padding-top: 75px;
+}
+
+.ftr-socials-media ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+.ftr-socials-media ul li{
+	padding-bottom: 22px;
+}
+.ftr-socials-media ul li a{
+	display: inline-block;
+}
+.ftr-socials-media ul li a i{
+	color: #fff;
+}
+
+
+.ftr-bottom-sct-inner{
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.ftr-btm-sct-left{
+	float: left;
+}
+.ftr-btm-sct-right{
+	float: right;
+}
+.ftr-btm-sct-left p{
+	display: inline-block;
+	margin:0;
+	padding-right: 15px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #767676;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ftr-btm-sct-left ul{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.ftr-btm-sct-left ul li{
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+	position: relative;
+}
+.ftr-btm-sct-left ul li:before{
+	content: "";
+	height: 16px;
+	width: 1px;
+	position: absolute;
+	background: #ddd;
+	top: 20%;
+	left: 0;
+}
+.ftr-btm-sct-left ul li a{
+	font-size: 16px;
+	line-height: 25px;
+	color: #767676;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.ftr-btm-sct-right p{
+	margin: 0;
+	font-size: 16px;
+	line-height: 25px;
+	color: #767676;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
