@@ -1,18 +1,7 @@
 
-.banner-section{
-	background: url('../images/banner-bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 220px;
-}
 
-.header{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
+
+
 .banner-sct-inner h1{
 	margin: 0;
 	padding-bottom: 42px;

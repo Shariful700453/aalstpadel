@@ -1,4 +1,16 @@
-
+.header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.banner-section{
+	background: url('../images/banner-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 220px;
+}
 
 .hdr-cnt-left-sct{
 	float: left;
@@ -224,8 +236,7 @@
 
 
 
-.hdr-bottom-section h1{
-	padding-top: 180px;
+.banner-sct-inner h1{
 	padding-bottom: 30px;
 	font-size: 80px;
 	line-height: 78px;
@@ -234,7 +245,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.hdr-bottom-section p{
+.banner-sct-inner p{
 	padding-bottom: 27px;
 	color: #fff;
 	font-size: 22px;
@@ -245,7 +256,7 @@
 	letter-spacing: 0.03em;
 	position: relative;
 }
-.hdr-bottom-section p:before{
+.banner-sct-inner p:before{
 	content: "";
 	height: 6px;
 	width: 116px;
@@ -258,11 +269,11 @@
 	-moz-transform: translate(-13%);
 	-webkit-transform: translate(-13%);
 }
-.hdr-bottom-section a{
+.banner-sct-inner a{
 	display: inline-block;
 	margin-right: 15px;
 }
-.hdr-bottom-section a.aalstpadel{
+.banner-sct-inner a.aalstpadel{
 	padding: 22px 53px;
 	font-size: 18px;
 	color: #fff;
@@ -272,11 +283,11 @@
 	border: 1px solid #9FD356;
 	background: #9FD356;
 }
-.hdr-bottom-section a.aalstpadel:hover{
+.banner-sct-inner a.aalstpadel:hover{
 	border: 1px solid #fff;
 	background: transparent;
 }
-.hdr-bottom-section a.komlangs{
+.banner-sct-inner a.komlangs{
 	padding: 21px 56px;
 	font-size: 18px;
 	color: #fff;
@@ -286,7 +297,9 @@
 	border: 2px solid #fff;
 	background: transparent;
 }
-.hdr-bottom-section a.komlangs:hover{
+.banner-sct-inner a.komlangs:hover{
 	border: 2px solid #9FD356;
 	background: #9FD356;
 }
+
+

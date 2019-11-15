@@ -1,0 +1,216 @@
+.bmw-section{
+	background: #F9F9F9;
+}
+.bmw-sct-inner{
+	padding: 95px 150px 65px 135px;
+}
+.bmw-sct-title h2{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bmw-sct-desc p{
+	margin: 0;
+	padding-bottom: 52px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.bmw-sct-slider-img{
+	float: left;
+	width: 285px;
+}
+.bmw-sct-slider-desc{
+	float: left;
+	width: 485px;
+	padding-left: 45px;
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.bmw-sct-slider-reserve{
+	float: left;
+	width: 285px;
+	padding-left: 30px;
+	text-align: center;
+}
+.bmw-sct-slider-img img{
+	display: inline-block;
+	padding-top: 50px;
+}
+.bmw-sct-slider-desc h2{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 48px;
+	color: #9FD356;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bmw-sct-slider-desc p{
+	margin:0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bmw-sct-slider-desc span{
+	display: inline-block;
+	padding-bottom: 10px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.bmw-sct-slider-reserve h4{
+	margin: 0;
+	padding-bottom: 30px;
+	padding-top: 85px;
+	font-size: 24px;
+	color: #9FD356;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bmw-sct-slider-reserve p{
+	margin: 0;
+	padding-bottom: 20px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.bmw-sct-slider-reserve a{
+	display: inline-block;
+	font-size: 18px;
+	color: #9FD356;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+	padding: 20px 58px;
+	border: 2px solid #9FD356;
+}
+
+.bmw-sct-grid{
+	padding-top: 60px;
+}
+.bmw-sct-grid ul{
+	list-style: none;
+	margin: 0;
+}
+.bmw-sct-grid ul li{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.bmw-sct-grid ul li:first-child{
+	padding-left: 0;
+}
+.bmw-sct-grid ul li:last-child{
+	padding-right: 0;
+}
+.bmw-sct-grid ul li:last-child img{
+	width: 305px;
+}
+.bmw-sct-grid ul li:nth-child(3) img{
+	width: 312px;
+}
+.bmw-sct-grid ul li img{
+	display: inline-block;
+	height: 195px;
+}
+
+.partners-sct ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.partners-sct ul li{
+	display: inline-block;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.partners-sct ul li:first-child{
+	padding-left: 62px;
+}
+.partners-sct ul li:last-child{
+	padding-right: 80px;
+	padding-left: 35px;
+}
+.partners-sct ul li a{
+	display: inline-block;
+}
+
+
+.bmw-sct-desc{
+	padding-bottom: 65px;
+	border-bottom: 1px solid #f9f9f9;
+}
+
+.bmw-sct-desc-title h2{
+	margin: 0;
+	padding-bottom: 32px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bmw-sct-text p{
+	text-align: left;
+	padding: 0;
+	padding-bottom: 58px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.bmw-sct-desc-gridbox ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.bmw-sct-desc-gridbox ul li{
+	padding-left: 40px;
+	padding-bottom: 28px;
+	position: relative;
+}
+.bmw-sct-desc-gridbox ul li:before{
+	content: "\f178 ";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    color: #a0d456;
+    left: 0;
+    top: 0%;
+    transform: translate(-0%);
+    -moz-transform: translate(-0%);
+    -webkit-transform: translate(-0%);
+}
+.bmw-sct-desc-gridbox ul li a{
+	display: inline-block;
+	font-size: 18px;
+	color: #767676;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
