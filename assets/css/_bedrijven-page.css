@@ -1,0 +1,162 @@
+
+.business-present-section{
+	padding-bottom: 182px;
+	padding-top: 92px;
+}
+
+.bs-sct-img{
+	float: left;
+	width: 50%;
+	position: relative;
+}
+.bs-sct-desc{
+	float: right;
+	width: 50%;
+	padding-left: 92px;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background:  #F9F9F9;
+	margin-top: 50px;
+	position: absolute;
+	left: 605px;
+}
+.bs-sct-img img{
+	display: inline-block;
+	width: 670px;
+	height: 665px;
+}
+
+.bs-sct-desc-title h2{
+	margin: 0;
+	padding-bottom: 50px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.bs-sct-desc-text p{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.bs-sct-desc-link a{
+	display: inline-block;
+	padding: 15px 35px 15px 0;
+	font-size: 18px;
+	color: #767676;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+	background: url('../images/down-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 130px 15px;
+}
+
+
+
+.business-sct-item-wrap{
+	padding-top: 105px;
+	padding-bottom: 90px;
+	background: #F9F9F9;
+}
+.business-sct-item-inner ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.business-sct-item-inner ul li{
+	float: left;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+.business-sct-item-inner ul li:nth-child(2n+1) .business-sct-item{
+	margin-left: 0;
+}
+.business-sct-item-inner ul li:nth-child(2n+2) .business-sct-item{
+	margin-right: 0;
+}
+
+.business-sct-item{
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.business-sct-item-img img{
+	display: inline-block;
+	width: 670px;
+	height: 430px;
+}
+
+.business-sct-item-cnt{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	padding-left: 58px;
+	padding-right: 45px;
+	background: #fff;
+}
+.business-sct-item-cnt-title h2{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.business-sct-item-cnt-desc p{
+	margin: 0;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+
+.business-about-section{
+	background: #9FD356;
+}
+.ba-sct-inner{
+	padding-top: 55px;
+	padding-bottom: 45px;
+	text-align: center;
+}
+.ba-sct-title h3{
+	margin: 0;
+	padding-bottom: 15px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.ba-sct-desc p{
+	margin: 0;
+	padding-bottom: 22px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ba-sct-link a{
+	display: inline-block;
+	padding: 20px 48px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	background: transparent;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}

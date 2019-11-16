@@ -1,0 +1,360 @@
+.club-section{
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.club-sct-title{
+	float: left;
+	width: 50%;
+	padding-right: 160px;
+}
+.club-sct-desc{
+	float: right;
+	width: 50%;
+}
+
+.club-sct-title h3{
+	margin: 0;
+	font-size: 40px;
+	color: #767676;
+	line-height: 50px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.club-sct-desc p{
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 22px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #272626;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.club-sct-desc p:last-child{
+	padding-bottom: 0;
+}
+
+.club-sct-item{
+	padding-top: 90px;
+}
+.club-sct-item ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.club-sct-item ul li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.club-sct-item ul li:first-child{
+	padding-left: 0;
+}
+.club-sct-item ul li:last-child{
+	padding-right: 0;
+}
+.club-sct-item ul li:last-child img{
+	width: 638px;
+}
+.club-sct-item ul li img{
+	display: inline-block;
+	height: 360px;
+}
+
+
+.racket-section,
+.tennis-section,
+.club-member-section{
+	padding-bottom: 80px;
+}
+.racket-sct-img img{
+	display: inline-block;
+	width: 670px;
+}
+.racket-sct-inner{
+	padding-left: 45px;
+	padding-top: 90px;
+	padding-right: 50px;
+}
+.rs-title h2,
+.ts-title h2{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.rs-desc p,
+.ts-desc p{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #272626;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.ts-inner{
+	padding-left: 52px;
+	padding-top: 90px;
+	padding-right: 45px;
+}
+
+.tennis-sct-img img{
+	display: inline-block;
+	height: 430px;
+	width: 670px;
+}
+
+
+.cm-sct-inner{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background: #9FD356;
+}
+.cm-sct-title h3{
+	margin: 0;
+	padding-bottom: 15px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.cm-sct-desc p{
+	margin: 0;
+	padding-bottom: 25px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.cm-sct-link a{
+	display: inline-block;
+	padding: 20px 48px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	background: transparent;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+
+
+.club-ups-section{
+	background: url('../images/ups-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.club-ups-sct-innner ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.club-ups-sct-innner ul li{
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.club-ups-sct-innner ul li:first-child{
+	padding-left: 0;
+}
+.club-ups-sct-innner ul li:last-child{
+	padding-right: 0;
+}
+
+.cu-sct-item{
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 90px;
+	padding-bottom: 70px;
+}
+
+.cu-sct-item-img{
+	padding-bottom: 25px;
+}
+.cu-sct-item-img img{
+	display: inline-block;
+}
+.cu-sct-item-title{
+	height: 76px;
+}
+.cu-sct-item-title h3{
+	margin: 0;
+	font-size: 30px;
+	color: #fff;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.cu-sct-item-desc p{
+	margin: 0;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+
+.club-sports-section{
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.cs-sct-title h2{
+	margin: 0;
+	padding-bottom: 48px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+.cs-sct-menu{
+	padding-bottom: 65px;
+}
+.cs-sct-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cs-sct-menu ul li{
+	display: inline-block;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.cs-sct-menu ul li:first-child{
+	padding-left: 0;
+}
+.cs-sct-menu ul li:last-child{
+	padding-right: 0;
+}
+.cs-sct-menu ul li:first-child a{
+	color: #767676;
+}
+.cs-sct-menu ul li a{
+	display: inline-block;
+	font-size: 18px;
+	color: #C4C4C4;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+
+.cs-sct-desc-cnt{
+	float: left;
+	width: 50%;
+	padding-left: 78px;
+	padding-top: 65px;
+	padding-right: 70px;
+	padding-bottom: 15px;
+	background: #F9F9F9;
+}
+.cs-sct-desc-img{
+	float: right;
+	width: 50%;
+}
+
+.cs-sct-desc-cnt-title h2{
+	margin: 0;
+	padding-bottom: 42px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.cs-sct-desc-cnt-text p{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.cs-sct-desc-cnt-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.cs-sct-desc-cnt-item ul li{
+	padding-left: 55px;
+	padding-bottom: 10px;
+	background: url('../images/right-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 30px 7px;
+}
+.cs-sct-desc-cnt-item ul li p{
+	margin: 0;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+.cs-sct-desc-img img{
+	display: inline-block;
+	height: 670px;
+}
+
+.club-drop-section{
+	padding-bottom: 85px;
+	border-bottom: 1px solid #f9f9f9;
+}
+.cd-sct-inner{
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	background: #438693;
+}
+.cd-sct-title h3{
+	margin: 0;
+	padding-bottom: 15px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.cd-sct-desc p{
+	margin: 0;
+	padding-bottom: 25px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.cd-sct-link a{
+	display: inline-block;
+	padding: 20px 48px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	background: transparent;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
