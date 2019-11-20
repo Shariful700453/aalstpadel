@@ -11,7 +11,14 @@
 	background-size: cover;
 	padding-top: 215px;
 }
-
+.main-slide-item{
+	padding-top: 370px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hdr-sct-inner{
+	padding-bottom: 105px;
+}
 .hdr-cnt-left-sct{
 	float: left;
 	padding-bottom: 16px;
@@ -147,6 +154,7 @@
 	padding-top: 55px;
 	padding-left: 33px;
 	padding-right: 33px;
+	padding-bottom: 5px;
 	position: relative;
 }
 .hdr-main-menu ul li:before,
@@ -239,8 +247,9 @@
 
 
 
-.banner-sct-inner h1{
-	padding-bottom: 30px;
+.hdr-bnr-title h1{
+	margin: 0;
+	padding-bottom: 40px;
 	font-size: 80px;
 	line-height: 78px;
 	color: #fff;
@@ -248,7 +257,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.banner-sct-inner p{
+.hdr-bnr-desc p{
 	padding-bottom: 27px;
 	color: #fff;
 	font-size: 22px;
@@ -259,7 +268,7 @@
 	letter-spacing: 0.03em;
 	position: relative;
 }
-.banner-sct-inner p:before{
+.hdr-bnr-desc p:before{
 	content: "";
 	height: 6px;
 	width: 116px;
@@ -272,11 +281,11 @@
 	-moz-transform: translate(-13%);
 	-webkit-transform: translate(-13%);
 }
-.banner-sct-inner a{
+.hdr-bnr-link a{
 	display: inline-block;
 	margin-right: 15px;
 }
-.banner-sct-inner a.aalstpadel{
+.hdr-bnr-link a.aalstpadel{
 	padding: 22px 53px;
 	font-size: 18px;
 	color: #fff;
@@ -286,11 +295,11 @@
 	border: 1px solid #9FD356;
 	background: #9FD356;
 }
-.banner-sct-inner a.aalstpadel:hover{
+.hdr-bnr-link a.aalstpadel:hover{
 	border: 1px solid #fff;
 	background: transparent;
 }
-.banner-sct-inner a.komlangs{
+.hdr-bnr-link a.komlangs{
 	padding: 21px 56px;
 	font-size: 18px;
 	color: #fff;
@@ -300,7 +309,7 @@
 	border: 2px solid #fff;
 	background: transparent;
 }
-.banner-sct-inner a.komlangs:hover{
+.hdr-bnr-link a.komlangs:hover{
 	border: 2px solid #9FD356;
 	background: #9FD356;
 }

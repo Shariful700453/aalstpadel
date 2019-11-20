@@ -31,18 +31,18 @@
 .tennis-sports-sct-inner{
 	padding-bottom: 100px;
 }
-.tennis-sports-sct-left{
+.tss-video{
 	float: left;
-	width: 50%;
+	width: 48%;
 	position: relative;
 }
-.tennis-sports-sct-right{
+.tss-desc{
 	float: right;
 	width: 50%;
-	padding-left: 24px;
+	margin-left: 24px;
 }
 
-.tennis-sports-sct-left img,
+.tss-video img,
 .play img{
 	display: inline-block;
 }
@@ -52,14 +52,14 @@
 	left: 50%;
 }
 
-.tennis-sports-sct-right-wrap{
+.tss-desc-inner{
 	background: #9FD356;
 	padding-left: 54px;
 	padding-right: 52px;
 	padding-bottom: 80px;
 	margin-top: 82px;
 }
-.tennis-sports-sct-right-wrap h2{
+.tss-desc-title h2{
 	padding-top: 75px;
 	padding-bottom: 28px;
 	margin-top: 0;
@@ -70,7 +70,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.tennis-sports-sct-right-wrap p{
+.tss-desc-text p{
 	padding-bottom: 32px;
 	font-size: 18px;
 	line-height: 28px;
@@ -78,7 +78,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: normal;
 }
-.tennis-sports-sct-right-wrap a{
+.tss-desc-link a{
 	display: inline-block;
 	font-size: 16px;
 	line-height: 22px;
@@ -98,7 +98,7 @@
 .clubs-sct-inner{
 	padding-top: 75px;
 }
-.clubs-sct-inner h2{
+.clubs-sct-title h2{
 	padding-bottom: 25px;
 	font-size: 48px;
 	line-height: 53px;
@@ -108,7 +108,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.clubs-sct-inner p{
+.clubs-sct-desc p{
 	padding-bottom: 35px;
 	font-size: 18px;
 	line-height: 28px;
@@ -116,22 +116,22 @@
 	text-align: center;
 }
 
-.clubs-sct-left{
+.clubs-sct-des{
 	float: left;
 	width: 50%;
 	background: #438693;
 	padding-top: 55px;
 	padding-bottom: 40px;
 }
-.clubs-sct-right{
+.clubs-sct-img{
 	float: right;
 	width: 50%;
 }
-.clubs-sct-right-inner{
+.clubs-sct-img-inner{
 	margin-left: 24px;
 }
 
-.clubs-sct-left h3{
+.club-sct-desc-title h3{
 	margin: 0;
 	padding-bottom: 7px;
 	font-size: 30px;
@@ -142,7 +142,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.clubs-sct-left p{
+.club-sct-desc-text p{
 	padding: 0;
 	margin: 0;
 	padding-bottom: 40px;
@@ -168,7 +168,7 @@
 	border: 2px solid #fff;
 	background: transparent;
 }
-.clubs-sct-right-inner img{
+.clubs-sct-img-inner img{
 	display: inline-block;
 	height: 840px;
 }
@@ -234,7 +234,7 @@
 .sports-sct-inner{
 	padding-bottom: 95px;
 }
-.sports-sct-menu h2{
+.sports-sct-title h2{
 	margin: 0;
 	padding-top: 95px;
 	font-size: 48px;
@@ -244,22 +244,22 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.sports-sct-menu ul{
+.sports-sct-item ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
-.sports-sct-menu ul li{
+.sports-sct-item ul li{
 	display: inline-block;
 	padding-right: 32px;
 	padding-left: 32px;
 	padding-top: 42px;
 	padding-bottom: 65px;
 }
-.sports-sct-menu ul li:first-child{
+.sports-sct-item ul li:first-child{
 	padding-left: 0;
 }
-.sports-sct-menu ul li a{
+.sports-sct-item ul li a{
 	display: inline-block;
 	font-size: 18px;
 	line-height: 24px;
@@ -270,24 +270,24 @@
 }
 
 
-.sports-sct-left{
+.sports-sct-desc{
 	float: left;
 	width: 32%;
 	position: absolute;
 	left: 75px;
 	z-index: 2;
 }
-.sports-sct-right{
+.sports-sct-img{
 	float: right;
 	width: 68%;
 }
 
-.sports-sct-left-inner{
+.sports-sct-desc-inner{
 	background: #F9F9F9;
 	margin-top: 95px;
 	padding-bottom: 110px;
 }
-.sports-sct-left-inner h2{
+.sports-sct-desc-title h2{
 	margin: 0;
 	padding-top: 90px;
 	padding-bottom: 42px;
@@ -298,7 +298,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: normal;
 }
-.sports-sct-left-inner p{
+.sports-sct-desc-text p{
 	margin: 0;
 	padding-bottom: 43px;
 	font-size: 18px;
@@ -307,7 +307,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: normal;
 }
-.sports-sct-left-inner a{
+.sports-sct-desc-link a{
 	display: inline-block;
 	font-size: 16px;
 	line-height: 21px;
@@ -318,10 +318,10 @@
 	border-bottom: 3px solid #438693;
 }
 
-.sports-sct-right img{
+.sports-sct-img img{
 	display: inline-block;
 }
-.sports-sct-right{
+.sports-sct-img{
 	position: relative;
 }
 
@@ -329,7 +329,7 @@
 .hdr-news-section{
 	background: #F9F9F9;
 }
-.hdr-news-sct-inner h2{
+.hdr-news-sct-title h2{
 	margin: 0;
 	padding-top: 92px;
 	padding-bottom: 32px;
@@ -341,7 +341,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.hdr-news-sct-inner p{
+.hdr-news-sct-desc p{
 	margin: 0;
 	font-size: 18px;
 	color: #272626;
@@ -352,23 +352,23 @@
 	padding-bottom: 52px;
 }
 
-.hdr-news-sct-inner ul{
+.hdr-news-sct-item ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	padding-left: -10px;
 	padding-right: -10px;
 }
-.hdr-news-sct-inner ul li{
+.hdr-news-sct-item ul li{
 	float: left;
 	width: 33.3333%;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.hdr-news-sct-inner ul li:first-child{
+.hdr-news-sct-item ul li:first-child{
 	padding-left: 0;
 }
-.hdr-news-sct-inner ul li:last-child{
+.hdr-news-sct-item ul li:last-child{
 	padding-right: 0;
 }
 
@@ -376,11 +376,11 @@
 	padding-bottom: 47px;
 	background: #fff;
 }
-.news-sct-wrap img{
+.news-sct-img img{
 	display: inline-block;
 	height: 320px;
 }
-.news-sct-wrap h4{
+.news-sct-title h4{
 	margin: 0;
 	padding-left: 50px;
 	padding-top: 45px;
@@ -393,7 +393,7 @@
 }
 
 
-.news-sct-wrap p{
+.news-sct-desc p{
 	text-align: left;
 	padding-bottom: 30px;
 	padding-left: 50px;
@@ -404,7 +404,7 @@
 	font-weight: normal;
 }
 
-.news-sct-wrap a{
+.news-sct-link a{
 	display: inline-block;
 	margin-left: 50px;
 	font-size: 16px;
