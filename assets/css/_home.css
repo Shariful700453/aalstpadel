@@ -460,3 +460,52 @@
 .partner-sct-inner ul li a img{
 	height: 92px;
 }
+
+
+
+
+.cookie-messege-inner{
+	padding: 35px 30px 30px 30px;
+	background: #9FD356;
+	width: 330px;
+	text-align: center;
+}
+.cookie-messege-title h4{
+	font-size: 24px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 22px;
+}
+.cookie-messege-desc p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+.cookie-messege-link{
+	padding-bottom: 28px;
+}
+.cookie-messege-link a{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	padding-right: 35px;
+	background: url('../images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.cookie-messege-button button{
+	font-size: 18px;
+	color: #fff;
+	padding: 15px 38px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+
+.cookie-messege-section{
+	position: absolute;
+	bottom: 55px;
+	right: 100px;
+}

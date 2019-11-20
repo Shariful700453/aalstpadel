@@ -191,21 +191,11 @@
 .bmw-sct-desc-gridbox ul li{
 	padding-left: 40px;
 	padding-bottom: 28px;
-	position: relative;
+	background: url('../images/right-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0 4px;
 }
-.bmw-sct-desc-gridbox ul li:before{
-	content: "\f178 ";
-	font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    position: absolute;
-    color: #a0d456;
-    left: 0;
-    top: 0%;
-    transform: translate(-0%);
-    -moz-transform: translate(-0%);
-    -webkit-transform: translate(-0%);
-}
+
 .bmw-sct-desc-gridbox ul li a{
 	display: inline-block;
 	font-size: 18px;

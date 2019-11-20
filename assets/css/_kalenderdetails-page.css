@@ -149,3 +149,44 @@
 .cgm-sct-inner iframe{
 	display: inline-block;
 }
+
+
+
+.calendar-slider-wrap{
+	position: relative;
+}
+.mainsliderarrow .leftarrow,
+.mainsliderarrow .rightarrow {
+	display: block;
+	height: 54px;
+	width: 29px;
+	cursor: pointer;
+	color: #D5D5D5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+}
+.mainsliderarrow .leftarrow{
+	position: absolute;
+	left:-70px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;
+	background-image: url(../images/cdl-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 29px 54px;
+}
+.mainsliderarrow .rightarrow{
+	position: absolute;
+	right:-70px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;	
+	background-image: url(../images/cdr-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 29px 54px;
+}

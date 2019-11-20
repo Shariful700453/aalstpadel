@@ -19,37 +19,25 @@ var windowWidth = $(window).width();
 
 // }
 
-if( $('.slider').length ){
-    $('.slider').slick({
+if( $('.cs-slider').length ){
+    $('.cs-slider').slick({
       pauseOnHover: false,
       dots: false,
       infinite: true,
       arrows: true,
       speed: 300,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      prevArrow: $('.mailsliderarrow .leftarrow'),
-      nextArrow: $('.mailsliderarrow .rightarrow'),
-    });
-}
-if( $('.PropertiesSlider').length ){
-    $('.PropertiesSlider').slick({
-      pauseOnHover: false,
-      dots: false,
-      infinite: true,
-      arrows: true,
-      speed: 300,
-      slidesToShow: 1,
+      slidesToShow: 4,
       slidesToScroll: 1,
-      prevArrow: $('.propertiesliderarrow .previous'),
-      nextArrow: $('.propertiesliderarrow .next'),
+      prevArrow: $('.mainsliderarrow .leftarrow'),
+      nextArrow: $('.mainsliderarrow .rightarrow'),
     });
 }
 
-if ($('.cookie-btn').length) {
-  $('.cookie-btn').on('click', function(e){
+
+if ($('.cookie-messege-button').length) {
+  $('.cookie-messege-button').on('click', function(e){
     e.preventDefault();
-    $('.cookie-message-section').hide('slow');
+    $('.cookie-messege-section').hide('slow');
   });
 }
 
