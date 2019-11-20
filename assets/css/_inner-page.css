@@ -1,0 +1,361 @@
+
+.inner-Praesent-section{
+	padding-top: 75px;
+}
+.inner-Praesent-sct-inner,
+.ipm-sct-inner,
+.inner-table-section{
+	max-width: 935px;
+	width: 100%;
+	margin: 0 auto;
+}
+.ip-sct-title h2{
+	margin: 0;
+	font-size: 48px;
+	line-height: 53px;
+	color: #272626;
+	text-transform: uppercase;
+	padding-bottom: 22px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+.ip-sct-desc p{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ip-sct-img img{
+	display: inline-block;
+	height: 422px;
+	width: 905px;
+}
+.ip-sct-text{
+	padding-top: 40px;
+}
+.ip-sct-text-desc p{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ip-sct-item ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 22px;
+}
+.ip-sct-item ul li{
+	padding-left: 28px;
+	background: url('../images/right-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+}
+
+.ip-sct-item ul li span{
+	display: inline-block;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.ip-sct-img-bottom ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: -10px;
+	padding-right: -10px;
+}
+.ip-sct-img-bottom ul li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ip-sct-img-bottom ul li:first-child{
+	padding-left: 0;
+}
+.ip-sct-img-bottom ul li:last-child{
+	padding-right: 0;
+}
+.ip-sct-img-bottom ul li img{
+	display: inline-block;
+}
+
+.inner-Praesent-middle-section{
+	padding-top: 80px;
+}
+.ipm-sct-title h3{
+	margin: 0;
+	padding-bottom: 25px;
+	font-size: 30px;
+	color: #272626;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.ipm-sct-desc p{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ipm-sct-racket-img{
+	float: left;
+	width: 50%;
+}
+.ipm-sct-racket-text{
+	float: right;
+	width: 50%;
+	padding-left: 10px;
+	padding-top: 55px;
+}
+.ipm-sct-racket-img img{
+	display: inline-block;
+	height: 320px;
+}
+.ipm-sct-racket-desc p{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ipm-sct-desc p.text{
+	margin: 0;
+	padding-bottom: 55px;
+	padding-top: 32px;
+}
+.ipm-sct-tennis-title{
+	float: left;
+	width: 50%;
+}
+.ipm-sct-tennis-img{
+	float: right;
+	width: 50%;
+}
+.ipm-sct-tennis-title h3{
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	padding-right: 18px;
+	font-size: 36px;
+	color: #767676;
+	line-height: 55px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+	background: url('../images/blackquot.png');
+	background-repeat: no-repeat;
+	background-position: 0 30px;
+}
+.ipm-sct-tennis-img img{
+	display: inline-block;
+}
+.ipm-sct-text{
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.ipm-sct-text-desc p{
+	margin: 0;
+	padding-bottom: 35px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ipm-sct-text-item ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 25px;
+}
+.ipm-sct-text-item ul li{
+	padding-bottom: 10px;
+}
+.ipm-sct-text-item ul li strong{
+	display: inline-block;
+	color: #9fd355;
+}
+.ipm-sct-text-item ul li span{
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+
+
+
+.ipm-sct-sports{
+	padding-bottom: 65px;
+}
+.ipm-sct-sports-img{
+	float: left;
+	width: 60%;
+}
+.ipm-sct-sports-inner{
+	float: right;
+	width: 40%;
+}
+.ipm-sct-sports-img{
+	position: relative;
+}
+.ipm-sct-sports-img img{
+	display: inline-block;
+	height: 630px;
+	width: 535px !important;
+}
+
+.ipm-sct-sports-title h2{
+	margin: 0;
+	padding-bottom: 42px;
+	font-size: 48px;
+	color: #272626;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ipm-sct-sports-desc p{
+	margin: 0;
+	padding-bottom: 42px;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+.ipm-sct-sports-link a{
+	display: inline-block;
+	font-size: 16px;
+	color: #9FD356;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+	border-bottom: 3px solid #9FD356;
+}
+
+.ipm-sct-sports-inner{
+	padding-top: 90px;
+	padding-right: 50px;
+	padding-bottom: 110px;
+	padding-left: 75px;
+	background: #F9F9F9;
+	position: absolute;
+	left: 42%;
+    top: 71%;
+}
+
+.inner-ups-sct-innner{
+	padding-bottom: 130px;
+}
+.inner-ups-sct-innner ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.inner-ups-sct-innner ul li{
+	float: left;width: 33.33%;
+}
+.iu-sct-item{
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.iu-sct-item-img{
+	padding-bottom: 25px;
+	height: 135px;
+}
+.iu-sct-item-img img{
+	display: inline-block;
+}
+.iu-sct-item-title{
+	height: 76px;
+}
+.iu-sct-item-title h3{
+	margin: 0;
+	padding-bottom: 25px;
+	font-size: 24px;
+	color: #272626;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+
+.iu-sct-item-desc p{
+	margin: 0;
+	font-size: 18px;
+	color: #272626;
+	line-height: 28px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: normal;
+}
+
+
+.inner-table-section{
+	padding-bottom: 90px;
+	border-bottom: 3px solid #F9F9F9;
+}
+
+.inner-table tr th{
+	padding-top: 38px;
+	padding-bottom: 36px;
+	padding-right: 107px;
+	padding-left: 22px;
+	background: #9FD356;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.inner-table tr th:nth-child(2){
+	padding-right: 123px;
+}
+.inner-table tr th:nth-child(3){
+	padding-right: 212px;
+}
+.inner-table tr td{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 22px;
+	font-size: 18px;
+	color: #767676;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.inner-table tr:nth-child(2) td{
+	padding-top: 38px;
+}
+.inner-table tr:nth-child(7) td{
+	padding-bottom: 38px;
+}
+.inner-table{
+	border: 4px solid #E5E5E5;
+}
+
+.inner-table tr td{
+	border-right: 3px solid #F9F9F9;
+}
+
+
+

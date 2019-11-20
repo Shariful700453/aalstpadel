@@ -9,7 +9,7 @@
 	background: url('../images/banner-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 220px;
+	padding-top: 215px;
 }
 
 .hdr-cnt-left-sct{
@@ -19,8 +19,8 @@
 }
 .hdr-cnt-right-sct{
 	float: right;
-	padding-top: 24px;
-	padding-bottom: 20px;
+	padding-top: 22px;
+	padding-bottom: 18px;
 }
 .hdr-cnt-left-sct a{
 	display: inline-block;
@@ -144,7 +144,7 @@
 }
 .hdr-main-menu ul li{
 	display: inline-block;
-	padding-top: 58px;
+	padding-top: 55px;
 	padding-left: 33px;
 	padding-right: 33px;
 	position: relative;
@@ -170,6 +170,9 @@
 .hdr-main-menu ul li.current-menu-item:before{
 	visibility: visible;
 }
+.hdr-main-menu ul li:last-child:before{
+	content: none;
+}
 .hdr-main-menu ul li:last-child{
 	padding-right: 0;
 	padding-left: 15px;
@@ -182,7 +185,7 @@
 	font-weight: 700;
 }
 .web{
-	padding: 20px;
+	padding: 16px 18px;
 	background: #9FD356;
 }
 .hdr-main-menu ul li.menu-item-has-children{

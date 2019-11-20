@@ -1,12 +1,12 @@
 
 .news-section-wrap{
 	background: #F9F9F9;
+	padding-top: 65px;
 }
-.news-sct h2{
+.news-sct-title h2{
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	padding-top: 62px;
 	padding-bottom: 32px;
 	font-size: 48px;
 	line-height: 53px;
@@ -15,7 +15,7 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
-.news-sct p{
+.news-sct-desc p{
 	margin-bottom: 0;
 	padding-bottom: 52px;
 	font-size: 18px;
@@ -27,36 +27,36 @@
 }
 
 
-.news-sct ul{
+.news-sct-item ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	padding-left: -10px;
 	padding-right: -10px;
 }
-.news-sct ul li{
+.news-sct-item ul li{
 	float: left;
 	width: 33.3333%;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 60px;
 }
-.news-sct ul li:first-child{
+.news-sct-item ul li:first-child{
 	padding-left: 0;
 }
-.news-sct ul li:last-child{
+.news-sct-item ul li:last-child{
 	padding-right: 0;
 }
 
-.news-sct-inner{
+.news-sct-item-inner{
 	padding-bottom: 47px;
 	background: #fff;
 }
-.news-sct-inner img{
+.news-sct-item-img img{
 	display: inline-block;
 	height: 320px;
 }
-.news-sct-inner h4{
+.news-sct-item-title h4{
 	margin: 0;
 	padding-left: 50px;
 	padding-top: 45px;
@@ -69,7 +69,8 @@
 }
 
 
-.news-sct-inner p{
+.news-sct-item-desc p{
+	margin: 0;
 	text-align: left;
 	padding-bottom: 30px;
 	padding-left: 50px;
@@ -80,7 +81,7 @@
 	font-weight: normal;
 }
 
-.news-sct-inner a{
+.news-sct-item-link a{
 	display: inline-block;
 	margin-left: 50px;
 	font-size: 16px;
@@ -103,8 +104,8 @@
 	display: inline-block;
 	padding-right: 25px;
 	padding-left: 25px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 .partner-sct ul li:first-child{
 	padding-left: 62px;
