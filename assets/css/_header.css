@@ -15,9 +15,10 @@
 	padding-top: 370px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 }
 .hdr-sct-inner{
-	padding-bottom: 105px;
+	padding-bottom: 60px;
 }
 .hdr-cnt-left-sct{
 	float: left;
@@ -312,6 +313,62 @@
 .hdr-bnr-link a.komlangs:hover{
 	border: 2px solid #9FD356;
 	background: #9FD356;
+}
+
+
+.hdr-bnr-slider{
+	padding-top: 60px;
+	text-align: center;
+}
+.hdr-bnr-slider span{
+	display: inline-block;
+	background: #646859;
+	width: 58px;
+	height: 3px;
+	margin-right: 10px;
+}
+
+
+.home-mainslider .left-arrow,
+.home-mainslider .right-arrow{
+	display: block;
+	height: 31px;
+	width: 45px;
+	cursor: pointer;
+	color: #D5D5D5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+}
+.home-mainslider .left-arrow{
+	position: absolute;
+	left:-200px;
+	top: 10%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;
+	background-image: url(../images/sp-left-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 90px 31px;
+}
+.home-mainslider .left-arrow:hover{
+	background-position: -46px 0px;
+}
+.home-mainslider .right-arrow{
+	position: absolute;
+	right:-200px;
+	top: 10%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;	
+	background-image: url(../images/sp-right-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 90px 31px;
+}
+.home-mainslider .right-arrow:hover{
+	background-position: -46px 0px;
 }
 
 

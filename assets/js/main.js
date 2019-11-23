@@ -60,6 +60,20 @@ if( $('.sps-slider').length ){
     });
 }
 
+if( $('#main-slider').length ){
+    $('#main-slider').slick({
+      pauseOnHover: false,
+      dots: false,
+      infinite: true,
+      arrows: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.home-mainslider .left-arrow'),
+      nextArrow: $('.home-mainslider .right-arrow'),
+    });
+}
+
 
 
 
