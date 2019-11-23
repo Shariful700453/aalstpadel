@@ -204,3 +204,58 @@
 	font-family: 'Assistant', sans-serif;
 	font-weight: 700;
 }
+
+
+.ss-mainslider .left-arrow,
+.ss-mainslider .right-arrow {
+	display: block;
+	height: 31px;
+	width: 45px;
+	cursor: pointer;
+	color: #D5D5D5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+}
+.ss-mainslider .left-arrow{
+	position: absolute;
+	left:-70px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;
+	background-image: url(../images/sp-left-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 90px 31px;
+}
+.ss-mainslider .left-arrow:hover{
+	background-position: -46px 0px;
+}
+.ss-mainslider .right-arrow{
+	position: absolute;
+	right:-70px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;	
+	background-image: url(../images/sp-right-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 90px 31px;
+}
+.ss-mainslider .right-arrow:hover{
+	background-position: -46px 0px;
+}
+
+
+.slick-current{
+	border-bottom: 8px solid #9fd355;
+}
+.slick-active{
+	border-bottom: none;
+}
+
+.partners-sct{
+	padding-bottom: 100px;
+}

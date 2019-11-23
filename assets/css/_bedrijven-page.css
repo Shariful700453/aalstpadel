@@ -20,10 +20,15 @@
 	position: absolute;
 	left: 605px;
 }
-.bs-sct-img img{
+.bs-sct-img{
 	display: inline-block;
-	width: 670px;
+	max-width: 670px;
+	width: 100%;
 	height: 665px;
+	background: url('../images/image-9.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .bs-sct-desc-title h2{
@@ -84,15 +89,30 @@
 .business-sct-item-inner ul li:nth-child(2n+2) .business-sct-item{
 	margin-right: 0;
 }
+.business-sct-item-inner ul li:nth-child(2n+2) .business-sct-item .business-sct-item-img{
+	display: inline-block;
+	max-width: 670px;
+	width: 100%;
+	height: 430px;
+	background: url('../images/image-6.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 
 .business-sct-item{
 	margin-left: 13px;
 	margin-right: 13px;
 }
-.business-sct-item-img img{
+.business-sct-item-img{
 	display: inline-block;
-	width: 670px;
+	max-width: 670px;
+	width: 100%;
 	height: 430px;
+	background: url('../images/image-10.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .business-sct-item-cnt{

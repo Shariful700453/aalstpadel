@@ -33,6 +33,36 @@ if( $('.cs-slider').length ){
     });
 }
 
+if( $('.sps-slider').length ){
+    $('.sps-slider').slick({
+      pauseOnHover: false,
+      dots: false,
+      infinite: true,
+      arrows: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '.ps-slider',
+      prevArrow: $('.ss-mainslider .left-arrow'),
+      nextArrow: $('.ss-mainslider .right-arrow'),
+    });
+    $('.ps-slider').slick({
+      pauseOnHover: false,
+      dots: false,
+      infinite: true,
+      arrows: true,
+      speed: 300,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: '.sps-slider',
+      focusOnSelect: true,
+      centerMode: true,
+    });
+}
+
+
+
+
 
 if ($('.cookie-messege-button').length) {
   $('.cookie-messege-button').on('click', function(e){
