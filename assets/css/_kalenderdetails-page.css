@@ -124,21 +124,19 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 .cs-sct-innner ul li{
 	display: inline-block;
 	padding-right: 10px;
 	padding-left: 10px;
 }
-.cs-sct-innner ul li:first-child{
-	padding-left: 0;
-}
-.cs-sct-innner ul li:last-child{
-	padding-right: 0;
-}
+
+
 .cs-sct-innner ul li img{
 	display: inline-block;
-	width: 315px;
+	width: 100%;
 }
 
 .calendar-googlemap-section{
@@ -148,6 +146,8 @@
 
 .cgm-sct-inner iframe{
 	display: inline-block;
+	max-width: 1340px;
+	width: 100%;
 }
 
 
@@ -158,8 +158,8 @@
 .mainsliderarrow .leftarrow,
 .mainsliderarrow .rightarrow {
 	display: block;
-	height: 54px;
-	width: 29px;
+	height: 31px;
+	width: 45px;
 	cursor: pointer;
 	color: #D5D5D5;
 	text-align: center;
@@ -176,7 +176,10 @@
 	z-index: 5;
 	background-image: url(../images/cdl-arrow.png);
 	background-repeat: no-repeat;
-	background-size: 29px 54px;
+	background-size: 90px 31px;
+}
+.mainsliderarrow .leftarrow:hover{
+	background-position: -46px 0px;
 }
 .mainsliderarrow .rightarrow{
 	position: absolute;
@@ -188,5 +191,8 @@
 	z-index: 5;	
 	background-image: url(../images/cdr-arrow.png);
 	background-repeat: no-repeat;
-	background-size: 29px 54px;
+	background-size: 90px 31px;
+}
+.mainsliderarrow .rightarrow:hover{
+	background-position: -46px 0px;
 }

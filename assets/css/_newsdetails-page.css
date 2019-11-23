@@ -44,6 +44,9 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 }
+.banner-dropdown ul li:first-child{
+	background: none;
+}
 
 .banner-dropdown ul li:first-child:before{
 	content: none;
