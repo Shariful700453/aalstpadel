@@ -18,7 +18,7 @@
 	background-position: center center;
 }
 .hdr-sct-inner{
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 .hdr-cnt-left-sct{
 	float: left;
@@ -370,5 +370,37 @@
 .home-mainslider .right-arrow:hover{
 	background-position: -46px 0px;
 }
+
+.home-btm-slider{
+	text-align: center;
+	padding-top: 50px;
+	position: relative;
+}
+.home-btm-slider span{
+	display: inline-block;
+	margin-right: 10px;
+	background: #646859;
+	height: 3px;
+	max-width: 58px;
+	width: 100%;
+	
+}
+.home-btm-slider span:first-child{
+	position: absolute;
+	left: 40%;
+	top: 88%;
+	background: #646859;
+}
+.home-btm-slider span:last-child{
+	position: absolute;
+	left: 46%;
+	top: 88%;
+	background: #646859;
+}
+
+
+
+
+
 
 

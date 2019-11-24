@@ -72,6 +72,7 @@ if( $('#main-slider').length ){
       prevArrow: $('.home-mainslider .left-arrow'),
       nextArrow: $('.home-mainslider .right-arrow'),
     });
+
 }
 
 
