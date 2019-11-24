@@ -450,24 +450,21 @@
 	margin: 0;
 }
 .partner-sct-inner ul li{
-	float: left;
-	padding-top: 64px;
-	padding-bottom: 60px;
-	padding-left: 37px;
-	padding-right: 37px;
+	display: inline-block;
+	padding-right: 21px;
+	padding-left: 21px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 .partner-sct-inner ul li:first-child{
 	padding-left: 0;
 }
 .partner-sct-inner ul li:last-child{
-	padding-right: 0;
-}
+	padding-right: 0px;
 
+}
 .partner-sct-inner ul li a{
 	display: inline-block;
-}
-.partner-sct-inner ul li a img{
-	height: 92px;
 }
 
 
